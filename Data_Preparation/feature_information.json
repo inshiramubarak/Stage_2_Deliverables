@@ -1,0 +1,72 @@
+{
+    "original_features": [
+        "gender",
+        "SeniorCitizen",
+        "Dependents",
+        "tenure",
+        "PhoneService",
+        "MultipleLines",
+        "InternetService",
+        "Contract",
+        "MonthlyCharges"
+    ],
+    "predictive_features": [
+        "gender_Female",
+        "gender_Male",
+        "Dependents_No",
+        "Dependents_Yes",
+        "PhoneService_No",
+        "PhoneService_Yes",
+        "MultipleLines_No",
+        "MultipleLines_Yes",
+        "InternetService_DSL",
+        "InternetService_Fiber optic",
+        "Contract_Month-to-month",
+        "Contract_One year",
+        "Contract_Two year",
+        "tenure",
+        "MonthlyCharges",
+        "SeniorCitizen"
+    ],
+    "clustering_features": [
+        "SeniorCitizen",
+        "tenure",
+        "MonthlyCharges",
+        "gender_Female",
+        "gender_Male",
+        "Dependents_No",
+        "Dependents_Yes",
+        "PhoneService_No",
+        "PhoneService_Yes",
+        "MultipleLines_No",
+        "MultipleLines_Yes",
+        "InternetService_DSL",
+        "InternetService_Fiber optic",
+        "Contract_Month-to-month",
+        "Contract_One year",
+        "Contract_Two year"
+    ],
+    "categorical_features": [
+        "gender",
+        "Dependents",
+        "PhoneService",
+        "MultipleLines",
+        "InternetService",
+        "Contract"
+    ],
+    "numerical_features": [
+        "tenure",
+        "MonthlyCharges"
+    ],
+    "binary_features": [
+        "SeniorCitizen"
+    ],
+    "target": "Churn",
+    "target_mapping": {
+        "No": 0,
+        "Yes": 1
+    },
+    "training_rows": 5634,
+    "testing_rows": 1409,
+    "clustering_rows": 7043
+}

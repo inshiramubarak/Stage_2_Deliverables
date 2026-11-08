@@ -1,0 +1,16 @@
+{
+    "dataset": "Dataset_ATS_v2.csv",
+    "train_test_split": 0.2,
+    "random_state": 42,
+    "stratified_by": "Churn",
+    "categorical_encoding": "OneHotEncoder",
+    "unknown_categories": "ignore",
+    "numerical_scaling": "StandardScaler",
+    "scaled_features": [
+        "tenure",
+        "MonthlyCharges"
+    ],
+    "predictive_scaler_fit": "training data only",
+    "clustering_scaler_fit": "full clustering dataset",
+    "records_removed": 0
+}

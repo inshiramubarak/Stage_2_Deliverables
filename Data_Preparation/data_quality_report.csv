@@ -1,0 +1,9 @@
+Check,Count,Decision
+Total records,7043,Retained all records
+Missing values,0,No treatment required
+Blank text values,0,No treatment required
+Duplicate-looking rows,302,Retained because no customer ID is available
+Zero tenure,11,Retained and documented
+Negative tenure,0,No treatment required
+Negative monthly charges,0,No treatment required
+Conflicting phone-service records,260,Retained because correction cannot be verified
