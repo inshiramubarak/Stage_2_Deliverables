@@ -1,0 +1,5 @@
+Cluster,Segment,Customers,Average_tenure_months,Average_monthly_charges,Percentage
+0,"Shorter tenure, higher charges",2202,14.811080835603997,81.23115349682107,31.26508590089451
+1,"Shorter tenure, lower charges",1733,10.477784189267167,32.48586266589729,24.605991764872922
+2,"Longer tenure, higher charges",1948,58.75872689938399,93.07597535934292,27.658668181172796
+3,"Longer tenure, lower charges",1160,54.1,34.150862068965516,16.470254153059777
